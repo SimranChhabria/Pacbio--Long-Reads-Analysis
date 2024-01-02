@@ -5,6 +5,7 @@ This repo contains the scripts used for analysis of pacbio long read sequencing 
 ## STEPS:
 - Iso-seq pipeline
 - RNA-seq quantification
+- SQANTI for isoform classification
 - tappAS for visualization
 
 
