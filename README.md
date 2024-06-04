@@ -50,8 +50,8 @@ This repo contains the scripts used for analysis of pacbio long read sequencing 
           ```
     
     - Running tapppAS:
-        - Select new project    : <Name>
-        - Select species        : <Species of interest>
+        - Select new project    : Name
+        - Select species        : Species of interest
         - Annotation features   : File from IsoAnnolite.py gff 
         - Experiment type       : Two group comparison
         - Design File           : tsv file with sample information. 
