@@ -8,7 +8,6 @@
 # conda activate long-read-seq
 #----
 
-
 #-----
 # Specify paths
 #-----
@@ -75,7 +74,7 @@ echo "Number of ummapped transcripts to genome:"
 wc -l aligned.notread.paf
 
 
-# #---- Step 4: Isoseq collapse : to collapse all the redundant transcripts
+# #---- Step 5: Isoseq collapse : to collapse all the redundant transcripts
 # #--
 # # Input  : aligned.sort.sam
 # # Output : collapsed fasta and gff file
