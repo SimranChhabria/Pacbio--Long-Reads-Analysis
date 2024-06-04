@@ -34,17 +34,20 @@ This repo contains the scripts used for analysis of pacbio long read sequencing 
 - Part 4: tappAS for visualization
     - Download the raw tappAS.jar file from https://app.tappas.org/
     - Java installation for Mac using command line
-
-    ```wget https://javadl.oracle.com/webapps/download/GetFile/1.8.0_251-
-b08/3d5a2bb8f8d4428bbe94aed7ec7ae784/unix-i586/jre-8u251-macosx-x64.tar.gz```
-
-    ```tar xvf jre-8u251-macosx-x64.tar.gz```
+   ```
+   wget https://javadl.oracle.com/webapps/download/GetFile/1.8.0_251-b08/3d5a2bb8f8d4428bbe94aed7ec7ae784/unix-i586/jre-8u251-macosx-x64.tar.gz
+   tar xvf jre-8u251-macosx-x64.tar.gz
+   ```
 
     - Launch the application
-    ```./jre1.8.0_251.jre/Contents/Home/bin/java -jar tappas.jar```
+    ```
+    ./jre1.8.0_251.jre/Contents/Home/bin/java -jar tappas.jar
+    ```
 
     NOTE: Path to Rscript when prompted by tappas:
-          ```/usr/local/bin/Rscript```
+          ```
+          /usr/local/bin/Rscript
+          ```
     
     - Running tapppAS:
         - Select new project    : <Name>
