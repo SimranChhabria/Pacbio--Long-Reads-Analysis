@@ -55,12 +55,12 @@ This repo contains the scripts used for analysis of pacbio long read sequencing 
         - Annotation features   : File from IsoAnnolite.py gff 
         - Experiment type       : Two group comparison
         - Design File           : tsv file with sample information. 
-            -- Make sure that the control samples are mentioned first.
+            - Make sure that the control samples are mentioned first.
         - Matrix File           : tsv file from kallisto_abundance. 
-            -- The sample names should match with samples in design file. 
-            -- The header should start with first sample name (no column name for transcript is needed)
-            -- The transcript name should match the names in gff
-        - Run with default settings : 
+            - The sample names should match with samples in design file. 
+            - The header should start with first sample name (no column name for transcript is needed)
+            - The transcript name should match the names in gff
+        - Run with default settings  
 
 
 ## CONDA ENVIRONMENT:
